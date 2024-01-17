@@ -11,7 +11,7 @@ Intructor: ms.Reem Alassaf <br />
 ## pre requirement:
 	python -m pip install requests 
 ## usage:
-### [1] Check The Available Networks Near you
-### [2] Crack Password For Wi-Fi
-### [3] Test The Strength  Of Your Password
-### [4] Check The all the previous networks connected to
+### [1] Check The nearest available Networks 
+### [2] Crack The Wi-Fi Password 
+### [3] Test The Strength  Of Your Wi-Fi Password
+### [4] Check The all the previous connected networks 
