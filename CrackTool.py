@@ -46,7 +46,7 @@ def CheckPssStrength():
     haveStr = False
     PassW = input(black+'>> Please Enter Your Password :'+reset)
     if len(PassW) < 8:
-        print(lightred+"[Bad Start] Your password is less than 8 charcters >>> [ Your password Vary Weak!! ]"+reset)
+        print(lightred+"[Bad Start] Your password is less than 8 charcters >>> [ Your password Very Weak!! ]"+reset)
     if len(PassW) > 8:
         for i in range(0,len(PassW)):
             if PassW[i].isalpha():
@@ -132,7 +132,7 @@ def FindPassword(name):
   if A =='Y':
    print(bold+cyan+'----------------[ LETS START THE DICTIONARY ATTACK ]------------------ '+reset)
 
-   with open("/Users/hp/Desktop/pass.txt", "r") as f:
+   with open("pass.txt", "r") as f:
 
      for l in f:
           try:
