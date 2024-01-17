@@ -29,7 +29,7 @@ def ScanningNets():
      print('')
      print(cyan+'--------------------------------------------------------')
      print('-------------------[Scanning Network...]----------------')
-     print('----------|THE AVAILABLE NETWROKS NEAR YOU|-------------')
+     print('----------|THE Nearest AVAILABLE NETWROKS|-------------')
      print('--------------------------------------------------------'+reset)
      print(bold+black+networks+reset)
     except:
@@ -46,7 +46,7 @@ def CheckPssStrength():
     haveStr = False
     PassW = input(black+'>> Please Enter Your Password :'+reset)
     if len(PassW) < 8:
-        print(lightred+"[Bad Start] Your password is less than 8 charcters >>> [ Your password Vary Week!! ]"+reset)
+        print(lightred+"[Bad Start] Your password is less than 8 charcters >>> [ Your password Vary Weak!! ]"+reset)
     if len(PassW) > 8:
         for i in range(0,len(PassW)):
             if PassW[i].isalpha():
@@ -66,15 +66,15 @@ def CheckPssStrength():
         if charCount == 0:
             print(black+'>> You need To add at least 1 Char '+reset)
         if (StrCount < 1 and charCount == 0 ) and (haveDigit):
-            print(red+'>> The Strength Of Your Password is >> [ Week ] Follow our advice  '+reset)
+            print(red+'>> The Strength Of Your Password is >> [ Weak ] Follow our advice  '+reset)
         if (charCount == 0 and DigCount < 1) and (haveStr):
-            print(red+'>> The Strength Of Your Password is >> [ Week ] Follow our advice  '+reset)
+            print(red+'>> The Strength Of Your Password is >> [ Weak ] Follow our advice  '+reset)
         if (charCount != 0 and DigCount > 1) and not (haveStr) :
-            print(red + '>> The Strength Of Your Password is >> [ Week ] Follow our advice  ' + reset)
+            print(red + '>> The Strength Of Your Password is >> [ Weak ] Follow our advice  ' + reset)
         if (charCount != 0 and StrCount > 1) and not haveDigit:
-            print(red + '>> The Strength Of Your Password is >> [ Week ] Follow our advice  ' + reset)
+            print(red + '>> The Strength Of Your Password is >> [ Weak ] Follow our advice  ' + reset)
         if (charCount != 0 and StrCount < 1) and not haveDigit:
-            print(red + '>> The Strength Of Your Password is >> [ Week ] Follow our advice  ' + reset)
+            print(red + '>> The Strength Of Your Password is >> [ Weak ] Follow our advice  ' + reset)
         if (StrCount >= 2 and charCount == 0 and DigCount >= 2) and (haveStr and haveDigit):
             print(yellow+'>> The Strength Of Your Password is >> [ Moderate ] Follow our advice  '+reset)
         if (StrCount >= 2 and charCount != 0 and DigCount >= 2) and (haveStr and haveDigit and haveChar):
@@ -198,10 +198,10 @@ while lop:
  print("")
  print(black+">> WHAT DO YOU WANT TO PERFORM ? (ENTER THE NUMBER) ")
  print("")
- print(">> [1] Check The Available Networks Near you  ")
- print(">> [2] Crack Password For Wi-Fi  ")
- print(">> [3] Test The Strength  Of Your Password  ")
- print(">> [4] Check The all the previous networks connected to  ")
+ print(">> [1] Check The nearest available Networks  ")
+ print(">> [2] Crack The Wi-Fi Password ")
+ print(">> [3] Test The Strength  Of Your Wi-Fi Password  ")
+ print(">> [4] Check The all the previous connected networks  ")
  print(">> [5] Exit :(  ")
  print("")
  task=input('ENTER HERE >> '+reset)
@@ -223,7 +223,7 @@ while lop:
      lop=False
      exit()
  else:
-     print(lightred+"[NOTE: WRONR INPUT] >>  PLEASE ENTER ONE OF THE NUMBERS IN THE LIST   "+reset)
+     print(lightred+"[NOTE: WRONG INPUT] >>  PLEASE ENTER ONE OF THE NUMBERS IN THE LIST   "+reset)
 
 
 
