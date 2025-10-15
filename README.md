@@ -1,6 +1,5 @@
 # P@ssCr@ck
-A script built to take utilization of security holes in wireless networks in order to obtain passwords without authorization is commonly referred to as a "cracking Wi-Fi password tool" Because it involves unauthorized access to another person's network and violates their privacy, using these tools to damage the security of Wi-Fi networks without proper authorization is illegal and unethical. Our script aim to crack the wifi password and more fetures about the informations of the wifi network. 
-
+command-line utility that assesses Wi-Fi security, delivering features for network reconnaissance, password strength analysis, and simulated WPA2 pre-shared key (PSK) attacks like brute force and dictionary attack.
 ## Credits:
 Ghada Bin Rubaian <br />
 Muneera Alsulaiman <br />
